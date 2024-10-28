@@ -33,6 +33,7 @@
     kdePackages.kbackup
     kdePackages.kio-admin
     kdePackages.kate
+    catppuccin-kde
   ];
 
   # Enable VirtualBox.
