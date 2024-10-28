@@ -90,6 +90,8 @@
     fira-code
     # logout menu
     wlogout
+    # GTK theme
+    magnetic-catppuccin-gtk
   ];
 
   # Enable VirtualBox.
