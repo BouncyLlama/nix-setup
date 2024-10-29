@@ -52,7 +52,6 @@ abbr t 'btop'
 abbr ri 'rg -i'
 abbr s 'sudo'
 abbr d 'du -sh *'
-abbr sfi 'source ~/.config/fish/config.fish'
 
 # SHORCUTS FOR PROGRAMS
 abbr v 'nvim'
@@ -72,3 +71,8 @@ abbr re 'reboot'
 # RESOLUTION
 abbr 4k 'xrandr -s 3840x2160'
 abbr hd 'xrandr -s 1920x1080'
+
+# YOUTUBE DOWNLOAD
+abbr yab 'cd ~/Downloads/; yt-dlp -x --audio-format mp3 -f bestaudio '
+abbr ya 'cd ~/Downloads/; yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 '
+abbr yv 'cd ~/Downloads/; yt-dlp '
