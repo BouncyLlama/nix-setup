@@ -4,7 +4,9 @@
 
   #imports =
   #  [
-      #./system/fish.nix
+      #./app/browser/librewolf.nix
+      #./app/browser/chromium.nix
+      #./app/browser/brave.nix
   #  ];
 
   # Home Manager needs a bit of information about you and the paths it should
