@@ -9,6 +9,7 @@
   environment.systemPackages = with pkgs; [
     kitty
     brave
+    librewolf
     nextcloud-client
     megasync
     keepassxc
@@ -25,6 +26,8 @@
     syncthingtray
     rustdesk-flutter
     freefilesync
+    freetube
+    tenacity
 
     # GTK THEMES
     magnetic-catppuccin-gtk
@@ -36,6 +39,11 @@
     kdePackages.kbackup
     kdePackages.kio-admin
     kdePackages.kate
+    kdePackages.kcalc
+    kdePackages.kcolorchooser
+    kdePackages.kolourpaint
+    kdePackages.tokodon
+    #kdePackages.plasma-firewall
     catppuccin-kde
   ];
 
