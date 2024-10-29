@@ -13,14 +13,18 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # Hostname
+  # Hostname.
   networking.hostName = "niki";
+  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Enable fish
   programs.fish.enable = true;
 
-  # Enable networking
+  # Enable networking.
   networking.networkmanager.enable = true;
+
+  # Enable flakes.
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Set your time zone.
   time.timeZone = "America/Los_Angeles";
@@ -111,7 +115,6 @@
   networking.firewall.allowedTCPPorts = [ 53317 8384 ];
   networking.firewall.allowedUDPPorts = [ 53317 8384 ];
 
-
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave
@@ -126,8 +129,5 @@
       dates = "weekly";
       options = "--delete-older-than 7d";
       };
-      
-  # Turn on flakes
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 }

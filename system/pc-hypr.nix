@@ -37,12 +37,8 @@
 
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
-    syncthing
-    syncthingtray
-    rustdesk-flutter
-    freefilesync
-    vscodium
     neovim
+    alacritty
     brave
     librewolf
     nextcloud-client
@@ -57,13 +53,19 @@
     yt-dlp
     imagemagick
     signal-desktop
+    syncthing
+    syncthingtray
+    rustdesk-flutter
+    freefilesync
+    vscodium
 
-    # KDE DOLPHIN
+    # KDE Dolphin
     kdePackages.dolphin
     kdePackages.dolphin-plugins
     kdePackages.ark
     kdePackages.konsole
     kdePackages.kio-admin
+    kdePackages.breeze-icons
 
     # HYPRLAND SPECIFIC
     # status bar
