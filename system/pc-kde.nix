@@ -26,6 +26,9 @@
     rustdesk-flutter
     freefilesync
 
+    # GTK THEMES
+    magnetic-catppuccin-gtk
+
     # KDE STUFF
     krename
     kdePackages.dolphin-plugins

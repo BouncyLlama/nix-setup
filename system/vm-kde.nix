@@ -7,12 +7,16 @@
 
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
-      krename
-      kdePackages.kbackup
-      kdePackages.ark
-      kdePackages.dolphin-plugins
-      kdePackages.kio-admin
-      kdePackages.kate
+    krename
+    kdePackages.kbackup
+    kdePackages.ark
+    kdePackages.dolphin-plugins
+    kdePackages.kio-admin
+    kdePackages.kate
+    catppuccin-kde
+
+    # GTK THEMES
+    magnetic-catppuccin-gtk
     ];
 
   # Enable VirtualBox guest
