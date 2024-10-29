@@ -5,6 +5,9 @@
   # Enable the KDE Plasma Desktop Environment.
   services.desktopManager.plasma6.enable = true;
 
+  # Hint electron apps to use wayland.
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     kitty
