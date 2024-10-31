@@ -43,7 +43,8 @@ abbr lsgen 'sudo nix-env --list-generations --profile /nix/var/nix/profiles/syst
 abbr up 'cd ~/nix; nix flake update'
 # UPDATE SYSTEM
 abbr rs  'sudo nixos-rebuild switch --flake ~/nix'
-abbr rhm 'home-manager switch --flake ~/nix'
+abbr rsh 'home-manager switch --flake ~/nix'
+abbr rhm 'nix run home-manager/master -- switch -b backup --flake ~/nix'
 
 # CLI COMMANDS
 alias l 'eza -lh --group-directories-first'
