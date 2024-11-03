@@ -2,6 +2,12 @@
 
 {
 
+  # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
+  nix.settings = {
+    substituters = ["https://hyprland.cachix.org"];
+    trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
+  };
+
   # ENABLE HYPRLAND.
   programs.hyprland.enable = true;
   programs.xwayland.enable = true;
@@ -19,11 +25,6 @@
     #pkgs.kdePackages.xdg-desktop-portal-kde
     ];
 
-  # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
-  nix.settings = {
-    substituters = ["https://hyprland.cachix.org"];
-    trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
-  };
 
   environment.sessionVariables = {
     # If your cursor becomes invisible
@@ -117,5 +118,9 @@
 
   # Extensions for VirtualBox
   virtualisation.virtualbox.host.enableExtensionPack = true;
+
+  # Enable Virt-manager
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
 }
