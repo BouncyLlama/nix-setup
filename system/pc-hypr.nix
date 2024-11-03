@@ -2,15 +2,22 @@
 
 {
 
-  # ENABLE HYPRLAND
-    programs.hyprland = {
-      #enable = true;
-      nvidiaPatches = true;
-      xwayland.enable = true;
-    };
+  # ENABLE HYPRLAND.
+  programs.hyprland.enable = true;
+  programs.xwayland.enable = true;
 
-  # This is from hyprland wiki
-  wayland.windowManager.hyprland.enable = true; # enable Hyprland
+  # Enable OpenGL and stuff.
+  hardware.graphics.enable = true;
+
+  # Desktop portals.
+  xdg.portal.enable = true;
+  xdg.portal.extraPortals = [ 
+    pkgs.xdg-desktop-portal-gtk
+    #pkgs.xdg-desktop-portal-wlr
+    #pkgs.xdg-desktop-portal-gnome
+    #pkgs.xdg-desktop-portal-hyprland
+    #pkgs.kdePackages.xdg-desktop-portal-kde
+    ];
 
   # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
   nix.settings = {
@@ -24,16 +31,6 @@
     # Hint electron apps to use wayland
     NIXOS_OZONE_WL = "1";
   };
-
-  hardware = {
-    opengl.enable = true;
-    # Most wayland compositors need this
-    nvidia.modesetting.enable = true;
-  };
-
-  # Desktop portals.
-    xdg.portal.enable = true;
-    xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
@@ -67,6 +64,14 @@
     kdePackages.kio-admin
     kdePackages.breeze-icons
 
+    # Icons
+    dracula-icon-theme
+    nordzy-icon-theme
+    epapirus-icon-theme
+    morewaita-icon-theme
+    la-capitaine-icon-theme
+    gnome-icon-theme
+
     # HYPRLAND SPECIFIC
     # status bar
     waybar
@@ -83,9 +88,12 @@
     grim
     slurp
     # clipboard
-    wl-copy
+    wl-clipboard
     # file manager
-    thunar
+    xfce.thunar
+    xfce.thunar-volman
+    xfce.thunar-archive-plugin
+    xfce.thunar-media-tags-plugin
     # fonts
     font-awesome
     hack-font
@@ -94,6 +102,13 @@
     wlogout
     # GTK theme
     magnetic-catppuccin-gtk
+    # QT stuff
+    qt5.qtwayland
+    qt6.qtwayland
+    # Monitor stuff
+    wlr-randr
+    # Hypr portal
+    xdg-desktop-portal-hyprland
   ];
 
   # Enable VirtualBox.

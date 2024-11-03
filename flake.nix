@@ -9,6 +9,7 @@
   };
 
   outputs = { self, nixpkgs, home-manager, ... }:
+
   {
       nixosConfigurations = {
         niki = nixpkgs.lib.nixosSystem {
