@@ -2,15 +2,17 @@
 
 {
 
-  # ENABLE HYPRLAND
-    programs.hyprland = {
-      #enable = true;
-      nvidiaPatches = true;
-      xwayland.enable = true;
-    };
+  # ENABLE HYPRLAND.
+  programs.hyprland.enable = true;
+  programs.xwayland.enable = true;
 
-  # This is from hyprland wiki
-  wayland.windowManager.hyprland.enable = true; # enable Hyprland
+  # Enable OpenGL and stuff.
+  hardware.graphics.enable = true;
+  hardware.nvidia.modesetting.enable = true;
+
+  # Desktop portals.
+  xdg.portal.enable = true;
+  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 
   # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
   nix.settings = {
@@ -24,16 +26,6 @@
     # Hint electron apps to use wayland
     NIXOS_OZONE_WL = "1";
   };
-
-  hardware = {
-    opengl.enable = true;
-    # Most wayland compositors need this
-    nvidia.modesetting.enable = true;
-  };
-
-  # Desktop portals.
-    xdg.portal.enable = true;
-    xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
@@ -68,6 +60,8 @@
     kdePackages.breeze-icons
 
     # HYPRLAND SPECIFIC
+    # XDG for hyprland
+    xdg-desktop-portal-hyprland
     # status bar
     waybar
     # notifications
@@ -83,9 +77,12 @@
     grim
     slurp
     # clipboard
-    wl-copy
+    wl-clipboard
     # file manager
-    thunar
+    xfce.thunar
+    xfce.thunar-volman
+    xfce.thunar-archive-plugin
+    xfce.thunar-media-tags-plugin
     # fonts
     font-awesome
     hack-font
