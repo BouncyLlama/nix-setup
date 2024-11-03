@@ -116,10 +116,10 @@
   virtualisation.virtualbox.host.enable = true;
   users.extraGroups.vboxusers.members = [ "y" ];
 
-  # Extensions for VirtualBox
+  # Extensions for VirtualBox.
   virtualisation.virtualbox.host.enableExtensionPack = true;
 
-  # Enable Virt-manager
+  # Enable Virt-manager.
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
