@@ -8,11 +8,16 @@
 
   # Enable OpenGL and stuff.
   hardware.graphics.enable = true;
-  hardware.nvidia.modesetting.enable = true;
 
   # Desktop portals.
   xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+  xdg.portal.extraPortals = [ 
+    pkgs.xdg-desktop-portal-gtk
+    #pkgs.xdg-desktop-portal-wlr
+    #pkgs.xdg-desktop-portal-gnome
+    #pkgs.xdg-desktop-portal-hyprland
+    #pkgs.kdePackages.xdg-desktop-portal-kde
+    ];
 
   # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
   nix.settings = {
@@ -59,9 +64,15 @@
     kdePackages.kio-admin
     kdePackages.breeze-icons
 
+    # Icons
+    dracula-icon-theme
+    nordzy-icon-theme
+    epapirus-icon-theme
+    morewaita-icon-theme
+    la-capitaine-icon-theme
+    gnome-icon-theme
+
     # HYPRLAND SPECIFIC
-    # XDG for hyprland
-    xdg-desktop-portal-hyprland
     # status bar
     waybar
     # notifications
@@ -91,6 +102,13 @@
     wlogout
     # GTK theme
     magnetic-catppuccin-gtk
+    # QT stuff
+    qt5.qtwayland
+    qt6.qtwayland
+    # Monitor stuff
+    wlr-randr
+    # Hypr portal
+    xdg-desktop-portal-hyprland
   ];
 
   # Enable VirtualBox.
