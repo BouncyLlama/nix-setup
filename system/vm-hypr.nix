@@ -23,7 +23,7 @@
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
 
-    # KDE Dolphin
+    # KDE DOLPHIN
     kdePackages.dolphin
     kdePackages.dolphin-plugins
     kdePackages.ark
@@ -31,7 +31,7 @@
     kdePackages.kio-admin
     kdePackages.breeze-icons
 
-    # Icons
+    # ICONS
     dracula-icon-theme
     nordzy-icon-theme
     epapirus-icon-theme
@@ -65,6 +65,7 @@
     font-awesome
     hack-font
     fira-code
+    fira-code-nerdfont
     # logout menu
     wlogout
     # GTK theme
