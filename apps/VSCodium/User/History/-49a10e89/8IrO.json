@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "hidden",
+    "files.associations": {
+        "*.nix": "ini"
+    }
+}

@@ -1,0 +1,17 @@
+2024-10-27 18:48:00.438 [info] Extension host with pid 9762 started
+2024-10-27 18:48:00.438 [info] Skipping acquiring lock for /home/y/.config/VSCodium/User/workspaceStorage/0df9bc73b18f069595844c5b90ccc4c4.
+2024-10-27 18:48:00.630 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-27 18:48:00.787 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-27 18:48:00.802 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-27 18:48:00.926 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-27 18:48:01.027 [info] Eager extensions activated
+2024-10-27 18:48:01.057 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-27 18:48:01.059 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-27 18:48:01.077 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-10-27 18:52:49.252 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2024-10-27 18:52:49.255 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2024-10-27 18:52:49.258 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2024-10-27 18:52:49.260 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTaskType:npm'
+2024-10-27 18:52:49.301 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onTaskType:typescript'
+2024-10-27 19:07:05.246 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-27 19:07:05.256 [info] Extension host with pid 9762 exiting with code 0

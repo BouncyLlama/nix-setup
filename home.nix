@@ -22,6 +22,11 @@
   home.file = {
    ".config/fish".source = ./system/fish;
    ".local/share/konsole".source = ./apps/konsole;
+   ".config/alacritty".source = ./apps/alacritty;
+   ".config/kitty".source = ./apps/kitty;
+   #".config/GitHub Desktop".source = ./apps/GitHub Desktop;
+   ".config/hypr".source = ./hyprland/hypr;
+   ".config/VSCodium".source = ./apps/VSCodium;
   };
 
   # Home Manager can also manage your environment variables.

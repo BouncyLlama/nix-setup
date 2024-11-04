@@ -1,0 +1,107 @@
+2024-10-29 05:58:43.296 [info] Extension host with pid 10678 started
+2024-10-29 05:58:43.296 [info] Skipping acquiring lock for /home/y/.config/VSCodium/User/workspaceStorage/0df9bc73b18f069595844c5b90ccc4c4.
+2024-10-29 05:58:43.529 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-29 05:58:43.551 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-29 05:58:43.571 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-29 05:58:44.033 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-29 05:58:44.135 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-10-29 05:58:44.146 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-29 05:58:44.249 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-29 05:58:44.398 [info] Eager extensions activated
+2024-10-29 05:58:44.435 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 05:58:44.438 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 05:58:44.457 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 06:15:52.700 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-29 06:15:52.713 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-29 06:15:52.774 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-29 06:39:36.930 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-29 06:39:36.943 [info] Extension host with pid 10678 exiting with code 0
+2024-10-29 06:39:38.250 [info] Extension host with pid 20852 started
+2024-10-29 06:39:38.250 [info] Skipping acquiring lock for /home/y/.config/VSCodium/User/workspaceStorage/3f4356ea5c475aa276f2647968591f5f.
+2024-10-29 06:39:38.271 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-29 06:39:38.278 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-29 06:39:38.373 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-29 06:39:38.469 [info] Eager extensions activated
+2024-10-29 06:39:38.492 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 06:39:38.494 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 06:39:38.512 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-10-29 06:39:38.565 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-29 06:39:38.680 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-29 07:09:04.375 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-29 07:09:04.384 [error] Canceled: Canceled
+	at new eR (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at gh.O [as value] (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:952983)
+	at A._deliver (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:973561)
+	at /nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-29 07:09:04.385 [error] Canceled: Canceled
+	at new eR (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at set hasGitHubRepositories (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/github/dist/extension.js:2:321527)
+	at /nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/github/dist/extension.js:2:322486
+	at gh.value (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:1061824)
+	at A._deliver (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:973561)
+	at /nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-29 07:09:04.385 [info] Extension host with pid 20852 exiting with code 0

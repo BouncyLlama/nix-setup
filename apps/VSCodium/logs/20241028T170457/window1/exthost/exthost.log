@@ -1,0 +1,15 @@
+2024-10-28 17:05:00.056 [info] Extension host with pid 3314 started
+2024-10-28 17:05:00.056 [info] Skipping acquiring lock for /home/y/.config/VSCodium/User/workspaceStorage/0df9bc73b18f069595844c5b90ccc4c4.
+2024-10-28 17:05:00.347 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-28 17:05:00.537 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-28 17:05:00.583 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-28 17:05:00.726 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-28 17:05:00.865 [info] Eager extensions activated
+2024-10-28 17:05:00.918 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-28 17:05:00.922 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-28 17:05:00.963 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-10-28 17:08:11.672 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-28 17:08:11.707 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-28 17:08:12.329 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-10-28 20:25:48.911 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-28 20:25:48.923 [info] Extension host with pid 3314 exiting with code 0

@@ -1,0 +1,38 @@
+2024-11-03 14:06:16.263 [info] [main] Log level: Info
+2024-11-03 14:06:16.264 [info] [main] Validating found git in: "git"
+2024-11-03 14:06:16.264 [info] [main] Using git "2.46.1" from "git"
+2024-11-03 14:06:16.264 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-03 14:06:16.264 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-03 14:06:16.264 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-03 14:06:16.264 [info] [Model][openRepository] Opened repository: /home/y/BIGDATA/GitHub/nix
+2024-11-03 14:06:16.265 [info] > git rev-parse --show-toplevel [51ms]
+2024-11-03 14:06:16.266 [info] > git config --get commit.template [59ms]
+2024-11-03 14:06:16.298 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-03 14:06:16.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-11-03 14:06:16.319 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-03 14:06:16.349 [info] > git status -z -uall [11ms]
+2024-11-03 14:06:16.350 [info] > git rev-parse --show-toplevel [21ms]
+2024-11-03 14:06:16.362 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2024-11-03 14:06:16.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-11-03 14:06:16.399 [info] > git rev-parse --show-toplevel [41ms]
+2024-11-03 14:06:16.400 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-03 14:06:16.408 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-11-03 14:06:16.417 [info] > git config --get commit.template [28ms]
+2024-11-03 14:06:16.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-11-03 14:06:16.447 [info] > git merge-base refs/heads/main refs/remotes/origin/main [19ms]
+2024-11-03 14:06:16.487 [info] > git diff --name-status -z --diff-filter=ADMR 62c1c1e372388c85e8d7329fc0a4aca5ebc80fcb...refs/remotes/origin/main [34ms]
+2024-11-03 14:06:16.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2024-11-03 14:06:16.509 [info] > git status -z -uall [7ms]
+2024-11-03 14:06:16.511 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-03 14:06:16.717 [info] > git show --textconv :system/pc-hypr.nix [7ms]
+2024-11-03 14:06:16.718 [info] > git ls-files --stage -- /home/y/BIGDATA/GitHub/nix/system/pc-hypr.nix [2ms]
+2024-11-03 14:06:16.725 [info] > git cat-file -s 08000469766987b45217c51cd8733ca44c1b540e [1ms]
+2024-11-03 14:06:16.770 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-03 14:07:32.693 [info] > git config --get commit.template [6ms]
+2024-11-03 14:07:32.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-03 14:07:32.708 [info] > git status -z -uall [8ms]
+2024-11-03 14:07:32.709 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-03 14:07:40.821 [info] > git config --get commit.template [6ms]
+2024-11-03 14:07:40.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-03 14:07:40.834 [info] > git status -z -uall [6ms]
+2024-11-03 14:07:40.835 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
