@@ -94,7 +94,7 @@
   virtualisation.virtualbox.guest.seamless = true;
   virtualisation.virtualbox.guest.clipboard = true;
 
-  # Enable virt-manager.
+  # Enable virt-manager guest.
   services.qemuGuest.enable = true;
   services.spice-vdagentd.enable = true;
 

@@ -7,7 +7,7 @@
     trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
   };
 
-  # Enable hyprland from wiki
+  # Enable hyprland (https://wiki.hyprland.org/Nix/Hyprland-on-NixOS/)
   programs.hyprland = {
     enable = true;
     # set the flake package
@@ -16,13 +16,6 @@
     portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
     xwayland.enable = true;
   };
-
-  # Enable OpenGL and stuff.
-  hardware.graphics.enable = true;
-
-  # Desktop portals.
-  xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 
   # Optional, hint electron apps to use wayland:
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
@@ -48,7 +41,7 @@
     rustdesk-flutter
     freefilesync
 
-    # KDE Dolphin
+    # KDE DOLPHIN
     kdePackages.dolphin
     kdePackages.dolphin-plugins
     kdePackages.ark
@@ -56,7 +49,7 @@
     kdePackages.kio-admin
     kdePackages.breeze-icons
 
-    # Icons
+    # ICONS
     dracula-icon-theme
     nordzy-icon-theme
     epapirus-icon-theme
@@ -90,6 +83,7 @@
     font-awesome
     hack-font
     fira-code
+    fira-code-nerdfont
     # logout menu
     wlogout
     # GTK theme
