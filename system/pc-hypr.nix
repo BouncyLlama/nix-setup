@@ -1,31 +1,31 @@
-{ config, pkgs, ... }:
+{ inputs, config, pkgs, ... }:
 
 {
-
   # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
   nix.settings = {
     substituters = ["https://hyprland.cachix.org"];
     trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
   };
 
-  # ENABLE HYPRLAND.
-  #programs.hyprland.enable = true;
-  programs.xwayland.enable = true;
-
-  # Enable OpenGL and stuff.
-  hardware.graphics.enable = true;
-
-  # Optional, hint electron apps to use wayland:
-  environment.sessionVariables.NIXOS_OZONE_WL = "1";
-
-  # Enable hyprland from wiki (https://wiki.hyprland.org/Nix/Hyprland-on-NixOS/)
+  # Enable hyprland from wiki
   programs.hyprland = {
     enable = true;
     # set the flake package
     package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
     # make sure to also set the portal package, so that they are in sync
     portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
+    xwayland.enable = true;
   };
+
+  # Enable OpenGL and stuff.
+  hardware.graphics.enable = true;
+
+  # Desktop portals.
+  xdg.portal.enable = true;
+  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+
+  # Optional, hint electron apps to use wayland:
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
@@ -94,13 +94,22 @@
     wlogout
     # GTK theme
     magnetic-catppuccin-gtk
+    # KDE theme
+    catppuccin-kvantum
+    # Setup GTK themes (.icons .themes)
+    nwg-look
+    # Setup QT themes
+    libsForQt5.qt5ct
+    kdePackages.qt6ct
+    themechanger
+    kdePackages.qtstyleplugin-kvantum
     # QT stuff
     qt5.qtwayland
     qt6.qtwayland
     # Monitor stuff
     wlr-randr
-    # Hypr portal
-    xdg-desktop-portal-hyprland
+    # Font manager
+    font-manager
   ];
 
   # Enable VirtualBox.
