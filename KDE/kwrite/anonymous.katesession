@@ -1,0 +1,36 @@
+[MainWindow0]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow0 Settings]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+WindowState=0
+
+[Open Documents]
+Count=0
+
+[Open MainWindows]
+Count=1
+
+[Recent Files]
+File1[$e]=$HOME/nixcfg/system/fish/config.fish
+File10[$e]=$HOME/nixcfg/hyprland/hypr/hyprland.conf
+File2[$e]=$HOME/BIGDATA/GitHub/dotfiles/hypr-start/waypaper/config.ini
+File3[$e]=$HOME/BIGDATA/GitHub/dotfiles/micro-editor/micro-script-and-notes.md
+File4[$e]=$HOME/BIGDATA/GitHub/nix/configuration.nix
+File5[$e]=$HOME/BIGDATA/GitHub/nix/system/vm-kde.nix
+File6[$e]=$HOME/BIGDATA/GitHub/nix/system/pc-kde.nix
+File7[$e]=$HOME/BIGDATA/GitHub/nix/system/pc-hypr.nix
+File8[$e]=$HOME/nixcfg/home.nix
+File9[$e]=$HOME/.config/kitty/kitty.conf
+Name1[$e]=config.fish
+Name10[$e]=hyprland.conf
+Name2[$e]=config.ini
+Name3[$e]=micro-script-and-notes.md
+Name4[$e]=configuration.nix
+Name5[$e]=vm-kde.nix
+Name6[$e]=pc-kde.nix
+Name7[$e]=pc-hypr.nix
+Name8[$e]=home.nix
+Name9[$e]=kitty.conf

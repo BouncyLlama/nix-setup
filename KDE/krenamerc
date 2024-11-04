@@ -1,0 +1,54 @@
+[ExtHistoryComboEXTENSION_CUSTOM_TEMPLATE]
+CompletionList=
+HistoryList=
+
+[ExtHistoryComboEXTENSION_TEMPLATE]
+CompletionList=$:1
+HistoryList=$
+
+[ExtHistoryComboFILENAME_CUSTOM_TEMPLATE]
+CompletionList=christmas:1
+HistoryList=christmas
+
+[ExtHistoryComboFILENAME_TEMPLATE]
+CompletionList=christmas#{4}:1
+HistoryList=christmas#{4}
+
+[ExtHistoryComboPREVIX_CUSTOM_TEMPLATE]
+CompletionList=
+HistoryList=
+
+[ExtHistoryComboSUFFIX_CUSTOM_TEMPLATE]
+CompletionList=
+HistoryList=
+
+[GUISettings]
+Advanced=false
+Column0=443
+Column1=569
+ExtensionSplitDot=0
+ExtensionSplitMode=1
+FileListSorting=0
+FileListSortingCustomMode=0
+FileListSortingCustomToken=creationdate;yyyyMMddHHmm
+ImagePreview2=true
+ImagePreviewName2=true
+StartIndex=4
+Stepping=1
+firststart4=false
+
+[KFileDialog Settings]
+Recent Files[$e]=download (1).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download.jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (14).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (13).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (12).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (11).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (10).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (9).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (8).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (7).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (6).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (5).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (4).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (3).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (2).jpeg,file:$HOME/BIGDATA/DOWNLOAD/download (1).jpeg
+Recent URLs[$e]=file:$HOME/BIGDATA/DOWNLOAD/
+detailViewIconSize=16
+
+[KRenameWindowSettings]
+1920x1080 screen: Height=797
+1920x1080 screen: Width=1130
+RestorePositionForNextInstance=false
+
+[PluginSettings]
+JavaScriptDefinitions=
+JavaScriptVariableNames=
+JavaScriptVariableTypes=
+JavaScriptVariableValues=

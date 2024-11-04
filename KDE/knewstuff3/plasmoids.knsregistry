@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="712">
+  <name>Condensed Weather [Plasma 6]</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>Zren</author>
+  <homepage>https://store.kde.org/p/2137197</homepage>
+  <licence></licence>
+  <version>6</version>
+  <rating>50</rating>
+  <downloads>11613</downloads>
+  <installedfile>/home/y/.local/share/plasma/plasmoids/com.github.zren.condensedweather/</installedfile>
+  <id>2137197</id>
+  <releasedate>2024-03-13</releasedate>
+  <summary>Uses the default KDE weather widget's data sources. Needs (&lt;strong>sudo apt install plasma-widgets-addons&lt;/strong>) if you don't already have the default KDE weather widget installed.&lt;br />
+&lt;br />
+&lt;strong>Plasma 5 Widget:&lt;/strong> &lt;a href="https://www.pling.com/p/1353451/" target="_blank"...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/39/56/2137197/logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/39/56/2137197/logo.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTAzMTU5ODAiLCJvIjoiMSIsInMiOiI5MzJiNDU1NTBmNDIxOTc3ZWZkZjc5Nzg3MWU0YTlhYjRmZTE4ZWY1N2RhOGIzZDU4YmY3NDExYzM2ODA4OTcxZDI2NTQ1MWRjNzVhZGMyYTFiMDZiM2IzOWYwZWVjMDg1NGMzOTQyMWI0M2U1NjFhODA3ZTExYWMzYzkwMjZlMyIsInQiOjE3MzA3MjcwNzgsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.60-z0c59lWENwkvp1Rr6P5Mb22HvgvA33HWW2W0V3Ws/condensedweather-v6-plasma6-0.plasmoid</payload>
+  <tags>extension,linux,gplv2-later,kde,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="712">
+  <name>Chaac Weather plasma6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zayronXIO</author>
+  <homepage>https://store.kde.org/p/2136291</homepage>
+  <licence></licence>
+  <version>2.5</version>
+  <rating>50</rating>
+  <downloads>2687</downloads>
+  <installedfile>/home/y/.local/share/plasma/plasmoids/zayron.chaac.weather/</installedfile>
+  <id>2136291</id>
+  <releasedate>2024-10-15</releasedate>
+  <summary>Widget that uses the free open meteo API to display the current weather, with a simple design. and in some cases, you won't have to intervene in the settings, as the widget will establish its location through its IP."&lt;br />
+&lt;br />
+&lt;br />
+This widget does not yet have all the functionalities that...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/24/01/13/2136291/screenshot-20231206-233607.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/24/01/13/2136291/screenshot-20231206-233607.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3Mjg5NTM4OTciLCJvIjoiMSIsInMiOiJlYzlmZDdmMTBlN2Q1MTRjMzZlZmIxMjYzM2UwZDg4OWIzMGZjMzExYjQ4MDk2MDk1YTIwOTA4MjljYjk0NWE2ZGIzYzJmMTNlNmEzMDk3NjhjNzZjNjhiZTA0Yzk5OTg5ZDg4YzNlMGQyMDZmZDYzMmQ4ZWU1NTkzZWU2NzVhYiIsInQiOjE3MzA3MjcxMjAsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.AQtqcJhF8Lto_yEcPstT6BDYIChe7qRx_q6KKGMgoXw/zayron.chaac.weather.tar.xz</payload>
+  <tags>plasma,unix,rainmeter,screenlets,extension,conky,linux,kde,original-product,agplv3</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

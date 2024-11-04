@@ -1,0 +1,23 @@
+[MainWindow]
+1920x1080 screen: Height=670
+1920x1080 screen: Width=1006
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAEMAAACUvwCAAAAAfsAAAAwAHIAZQBtAG8AdABlAEQAZQBzAGsAdABvAHAAcwBEAG8AYwBrAFcAaQBkAGcAZQB0AQAAAEwAAAJSAAAApwD///8AAALhAAACUgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAMABrAHIAZABjAF8AcgBlAG0AbwB0AGUAXwB2AGkAZQB3AF8AdABvAG8AbABiAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[hostpreferences][rdp://1992.168.1.135]
+colorDepth=3
+console=false
+extraOptions=
+height=600
+keyboardLayout=7
+performance=2
+remoteFX=true
+resolution=6
+scaleFactor=0
+shareMedia=/media
+showConfigAgain=true
+sound=0
+soundSystem=0
+walletSupport=true
+width=800

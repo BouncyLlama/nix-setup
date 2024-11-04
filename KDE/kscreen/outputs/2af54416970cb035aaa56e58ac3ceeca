@@ -1,0 +1,19 @@
+{
+    "id": "2af54416970cb035aaa56e58ac3ceeca",
+    "metadata": {
+        "fullname": "xrandr-unknown",
+        "name": "eDP-1"
+    },
+    "mode": {
+        "refresh": 60.04216003417969,
+        "size": {
+            "height": 1080,
+            "width": 1920
+        }
+    },
+    "overscan": 0,
+    "rgbrange": 0,
+    "rotation": 1,
+    "scale": 1,
+    "vrrpolicy": 2
+}

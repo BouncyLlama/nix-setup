@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="299">
+  <name>Win-Light-Wallpaper</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/1994278</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>33784</downloads>
+  <installedfile>/home/y/.local/share/wallpapers/Win-Light-Wallpaper-With-KDE-Plasma-Logo.jpg</installedfile>
+  <id>1994278</id>
+  <releasedate>2023-02-25</releasedate>
+  <summary>Win-Wallpaper  (With KDE Plasma Logo and Without  Logo)&lt;br />
+&lt;br />
+Light Rounded Plasma Theme &lt;span style="color: #489ab1;">Wings-Light-Plasma&lt;/span>, which you can download: &lt;a href="https://www.pling.com/p/1994292/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/1994278/win-logo.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/1994278/win-logo.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NzczMTkxNzEiLCJvIjoiMSIsInMiOiIwMDE0YTg1MTU0MjE0ODJmOTQ2NDhhY2YyZGVlZWMwNzg0MzNkMjFkM2UzZWFlMGY4YjM4ZDU4MTM5ZTAyN2MzYmZhMGVkZGYxOGYzNmFkMTliNDU0ZjA5MzY1ZjI0Mjc3ODM1N2E5YjcwNzNjNzMwNjIwNzQxYzBmY2M5ODU1YyIsInQiOjE3Mjk0MTUxODksInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.zddmJlmKde0pKuYvNkCWbPpnj_Y31IJsZX27fKikvMo/Win-Light-Wallpaper-With-KDE-Plasma-Logo.jpg</payload>
+  <tags>wallpaper,artwork,gplv3,kde,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="299">
+  <name>Amy-Dark and Light-Wallpaper</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2011581</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>38809</downloads>
+  <installedfile>/home/y/.local/share/wallpapers/Amy-Dark and Light-Wallpaper/*</installedfile>
+  <id>2011581</id>
+  <releasedate>2023-04-01</releasedate>
+  <summary>Amy-Wallpaper Dark and Light, Follows Color Scheme. For Plasma 5.27&lt;br />
+&lt;br />
+Dark Rounded Plasma Theme &lt;span style="color: #489ab1;">Amy-Plasma&lt;/span>, which you can download: &lt;a href="https://www.pling.com/p/2011600/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2011581/screenshot.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2011581/screenshot.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2ODAzNDAyOTYiLCJvIjoiMSIsInMiOiI4YWZiNjJjNTZjMmNjNWM0OTIwNTgxOTRmNDhmMTZjYjE1NTczZjdhMmJlNDlmODM2YzY1MDI0OWY2MjMyYWFjMTY5ZWJiZDZjNDA4MDI0ZjgzZDY5ZDhlYWU4ZDdkMTY2MWU3MjkwY2ZlNDliY2U2ODI0Yjg5ZWZiM2FhY2I3NiIsInQiOjE3Mjk0MTUxNzMsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.5R6cpkCcw2fH54qBiAYfZtkycPbssXf7ghUyqeve0Vk/Amy-Dark-and-Light-Wallpaper.tar.gz</payload>
+  <tags>artwork,wallpaper,gplv3,kde,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="299">
+  <name>Amy-Dark-Wallpaper</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2011580</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>24213</downloads>
+  <installedfile>/home/y/.local/share/wallpapers/Amy-Dark-Wallpaper-With-Plasma-Logo.jpg</installedfile>
+  <id>2011580</id>
+  <releasedate>2023-04-01</releasedate>
+  <summary>Dark Rounded Plasma Theme &lt;span style="color: #489ab1;">Amy-Plasma&lt;/span>, which you can download: &lt;a href="https://www.pling.com/p/2011600/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2011580/logo2.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2011580/logo2.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2ODAzNDA3ODgiLCJvIjoiMSIsInMiOiJmNzBmMmE4OTQ4NWUxM2Q2Mzk2Y2JiZjM5N2JjMWY4NGIyMjM5ODc4Y2YxM2ViODUwNzI0ZWQ5MDA1NzUxOWU5NGI4NDJiYzU5MDMyNTY0OWI0MmJhNTUzM2RlZjgyODA1Yzk5MjZmZmYyNzk3YTNmMmE2MTM0NTYwNTczMjAzMyIsInQiOjE3Mjk0MTUxNzYsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.ynv8Pv74kMAzq17CuMlWP-oe0mAKaa3WLfRIImF1830/Amy-Dark-Wallpaper-With-Plasma-Logo.jpg</payload>
+  <tags>wallpaper,plasma,kde,gplv3,artwork</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

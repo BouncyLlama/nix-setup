@@ -1,0 +1,12 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/BIGDATA/GitHub/dotfiles/kde-backup/kde-config-files.kbp
+Recent URLs[$e]=file:$HOME/BIGDATA/DOWNLOAD/,file:$HOME/BIGDATA/GitHub/dotfiles/kde-backup/,file:$HOME/BIGDATA/GitHub/,file:$HOME/,file:$HOME/BIGDATA/GitHub/dotfiles/,file:$HOME/Downloads/,file:$HOME/Documents/
+
+[MainWindow]
+1920x1080 screen: Height=977
+1920x1080 screen: Width=1876
+1920x1080 screen: XPosition=22
+1920x1080 screen: YPosition=43
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAB1QAAAOzAAAABAAAAAQAAAAIAAAACPwAAAAA
+eDP-1=eDP-1
