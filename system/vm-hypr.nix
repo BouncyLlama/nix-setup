@@ -17,9 +17,6 @@
     xwayland.enable = true;
   };
 
-  # Enable OpenGL and stuff.
-  hardware.graphics.enable = true;
-
   # Optional, hint electron apps to use wayland:
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
