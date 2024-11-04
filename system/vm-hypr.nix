@@ -1,7 +1,6 @@
 { inputs, config, pkgs, ... }:
 
 {
-
   # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
   nix.settings = {
     substituters = ["https://hyprland.cachix.org"];

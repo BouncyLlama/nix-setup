@@ -2,40 +2,33 @@
 
 {
 
-  # ENABLE HYPRLAND.
-  programs.hyprland.enable = true;
-  programs.xwayland.enable = true;
-
-  # Enable OpenGL and stuff.
-  hardware.graphics.enable = true;
-
-  # Desktop portals.
-  xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ 
-    pkgs.xdg-desktop-portal-gtk
-    #pkgs.xdg-desktop-portal-wlr
-    #pkgs.xdg-desktop-portal-gnome
-    #pkgs.xdg-desktop-portal-hyprland
-    #pkgs.kdePackages.xdg-desktop-portal-kde
-    ];
-
   # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
   nix.settings = {
     substituters = ["https://hyprland.cachix.org"];
     trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
   };
 
-  environment.sessionVariables = {
-    # If your cursor becomes invisible
-    WLR_NO_HARDWARE_CURSORS = "1";
-    # Hint electron apps to use wayland
-    NIXOS_OZONE_WL = "1";
+  # ENABLE HYPRLAND.
+  #programs.hyprland.enable = true;
+  programs.xwayland.enable = true;
+
+  # Enable OpenGL and stuff.
+  hardware.graphics.enable = true;
+
+  # Optional, hint electron apps to use wayland:
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
+  # Enable hyprland from wiki (https://wiki.hyprland.org/Nix/Hyprland-on-NixOS/)
+  programs.hyprland = {
+    enable = true;
+    # set the flake package
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+    # make sure to also set the portal package, so that they are in sync
+    portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
   };
 
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
-    neovim
-    alacritty
     brave
     librewolf
     nextcloud-client
@@ -54,7 +47,6 @@
     syncthingtray
     rustdesk-flutter
     freefilesync
-    vscodium
 
     # KDE Dolphin
     kdePackages.dolphin
@@ -115,7 +107,11 @@
   virtualisation.virtualbox.host.enable = true;
   users.extraGroups.vboxusers.members = [ "y" ];
 
-  # Extensions for VirtualBox
+  # Extensions for VirtualBox.
   virtualisation.virtualbox.host.enableExtensionPack = true;
+
+  # Enable Virt-manager.
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
 }
