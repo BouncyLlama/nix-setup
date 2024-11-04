@@ -81,6 +81,7 @@
     xfce.thunar-media-tags-plugin
     # fonts
     font-awesome
+    nerdfonts
     hack-font
     fira-code
     fira-code-nerdfont
