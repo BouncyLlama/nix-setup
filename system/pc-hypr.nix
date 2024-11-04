@@ -9,17 +9,22 @@
   };
 
   # ENABLE HYPRLAND.
-  programs.hyprland.enable = true;
+  #programs.hyprland.enable = true;
   programs.xwayland.enable = true;
 
   # Enable OpenGL and stuff.
   hardware.graphics.enable = true;
 
-  environment.sessionVariables = {
-    # If your cursor becomes invisible
-    WLR_NO_HARDWARE_CURSORS = "1";
-    # Hint electron apps to use wayland
-    NIXOS_OZONE_WL = "1";
+  # Optional, hint electron apps to use wayland:
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
+  # Enable hyprland from wiki (https://wiki.hyprland.org/Nix/Hyprland-on-NixOS/)
+  programs.hyprland = {
+    enable = true;
+    # set the flake package
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+    # make sure to also set the portal package, so that they are in sync
+    portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
   };
 
   # INSTALL PACKAGES
@@ -42,7 +47,6 @@
     syncthingtray
     rustdesk-flutter
     freefilesync
-    vscodium
 
     # KDE Dolphin
     kdePackages.dolphin
