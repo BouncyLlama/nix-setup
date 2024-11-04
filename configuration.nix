@@ -81,6 +81,7 @@
     packages = with pkgs; [
       micro
       neovim
+      alacritty
       vscodium
       chromium
       git

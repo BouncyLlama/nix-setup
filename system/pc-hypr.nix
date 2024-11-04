@@ -15,17 +15,6 @@
   # Enable OpenGL and stuff.
   hardware.graphics.enable = true;
 
-  # Desktop portals.
-  xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ 
-    pkgs.xdg-desktop-portal-gtk
-    #pkgs.xdg-desktop-portal-wlr
-    #pkgs.xdg-desktop-portal-gnome
-    #pkgs.xdg-desktop-portal-hyprland
-    #pkgs.kdePackages.xdg-desktop-portal-kde
-    ];
-
-
   environment.sessionVariables = {
     # If your cursor becomes invisible
     WLR_NO_HARDWARE_CURSORS = "1";
@@ -35,8 +24,6 @@
 
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
-    neovim
-    alacritty
     brave
     librewolf
     nextcloud-client
