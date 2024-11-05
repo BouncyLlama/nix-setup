@@ -70,6 +70,7 @@
     wlogout
     # GTK theme
     magnetic-catppuccin-gtk
+    tokyonight-gtk-theme
     # KDE theme
     catppuccin-kvantum
     # Setup GTK themes (.icons .themes)
