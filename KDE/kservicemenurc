@@ -1,0 +1,15 @@
+[Show]
+compressfileitemaction=true
+extractfileitemaction=true
+forgetfileitemaction=true
+installFont=true
+kactivitymanagerd_fileitem_linking_plugin=false
+kio-admin=true
+makefileactions=true
+mountisoaction=true
+movetonewfolderitemaction=true
+nextclouddolphinactionplugin=true
+runInKonsole=true
+slideshowfileitemaction=true
+tagsfileitemaction=false
+wallpaperfileitemaction=true

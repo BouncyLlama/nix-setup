@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="717">
+  <name>Amy-Light-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2138702</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>5180</downloads>
+  <installedfile>/home/y/.local/share/aurorae/themes/Amy-Light-Aurorae-6/*</installedfile>
+  <id>2138702</id>
+  <releasedate>2024-03-28</releasedate>
+  <summary>Solid Light Window Decoration (Aurorae Theme) for Plasma 6&lt;br />
+&lt;br />
+BLUR Light Window Decoration &lt;span style="color: #008b8b;"> &lt;strong>Amy-Blur-Light-Aurorae-6&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2138701/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+______________________________________________________________________&lt;br />
+&lt;br />
+Light Plasma Theme, Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Light-Plasma&lt;/strong> &lt;/span>:  &lt;a href="https://www.pling.com/p/2018303" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+&lt;br />
+Light Global Theme, Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Light-Global-6&lt;/strong> &lt;/span>:  &lt;a href="https://www.pling.com/p/2018303" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2138702/screenshot-20240318-115159.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2138702/screenshot-20240318-115159.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTE2MTg2OTIiLCJvIjoiMSIsInMiOiI2YzIyMDdjZjEyODk4NTkyYmZjNzg4ZWMyN2I0ODRmZTFjNTQwZmFhY2RhMmJjYjVhODU4YTc5YTY0YjRkNzUyMzZmMTIyMDE4YWIyYmU0YjE3MDhiMTAyYzg2YzE2MDA4MWU0ZTQ0ZDQ4ZTE2Nzk3Y2RhODRiZTJjNmY3MTlmMSIsInQiOjE3Mjk0MTUxODIsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.NgMii31StPuEym4xhHFaJxAC8fevHch_5hjk7LOzsIg/Amy-Light-Aurorae-6.tar.gz</payload>
+  <tags>theme,unix,plasma,original-product,kde,gplv3,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="717">
+  <name>Amy-Blur-Dark-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2137358</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>3780</downloads>
+  <installedfile>/home/y/.local/share/aurorae/themes/Amy-Blur-Dark-Aurorae-6/*</installedfile>
+  <id>2137358</id>
+  <releasedate>2024-03-28</releasedate>
+  <summary>BLUR Dark Rounded  Window Decorations (Aurorae Theme) for Plasma 6&lt;br />
+&lt;br />
+Dark Rounded Kvantum Theme &lt;span style="color: #008b8b;"> &lt;strong>Amy-Dark-Kvantum&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2011595/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+______________________________________________________________________&lt;br />
+&lt;br />
+Dark Rounded  Window Decorations (Aurorae Theme)  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Dark-Aurorae-6&lt;/strong> &lt;/span> : &lt;a href="https://www.pling.com/p/2137359/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+&lt;br />
+_______________________________________________________________________&lt;br />
+&lt;br />
+Dark Rounded Plasma Theme, Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Dark-Plasma&lt;/strong> &lt;/span>:  &lt;a href="https://www.pling.com/p/2011600" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+&lt;br />
+Dark Rounded Global Theme , Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Dark-Global-6&lt;/strong> &lt;/span> : &lt;a href="https://www.pling.com/p/2137360/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2137358/1-logo1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2137358/1-logo1.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTE2MTg0NTIiLCJvIjoiMSIsInMiOiJiZTFmNzhiZDFkNTZmYWNhZmJkNmY0MmVhMzg0ZGJhM2Q0MjYwOTA3MmRmMmU5ZDVkMjkxOWZjNTM3MzJhNWNiOWIwMTMxZjMwYTc5N2ExN2ZiODhmZThiMjE3NzM2MWQ4YjdhMTZmNTYzMzY2YWEzNWRmZWJhNjFlYzY5ZTUwZiIsInQiOjE3Mjk0MTUxNDcsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.qNpYkCgZilNELG4joEJzVo7piFvhempR0-VBebZ9ghE/Amy-Blur-Dark-Aurorae-6.tar.gz</payload>
+  <tags>original-product,plasma,unix,theme,kde,gplv3,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="717">
+  <name>Amy-Dark-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2137359</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>3305</downloads>
+  <installedfile>/home/y/.local/share/aurorae/themes/Amy-Dark-Aurorae-6/*</installedfile>
+  <id>2137359</id>
+  <releasedate>2024-03-28</releasedate>
+  <summary>Dark Rounded  Window Decorations (Aurorae Theme) for Plasma 6&lt;br />
+______________________________________________________________________&lt;br />
+&lt;br />
+ BLUR Dark Rounded  Window Decorations (Aurorae Theme)  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Blur-Dark-Aurorae-6&lt;/strong> &lt;/span> : &lt;a href="https://www.pling.com/p/2137358/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+_______________________________________________________________________&lt;br />
+&lt;br />
+Dark Rounded Plasma Theme, Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Dark-Plasma&lt;/strong> &lt;/span> :  &lt;a href="https://www.pling.com/p/2011600" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+&lt;br />
+Dark Rounded Global Theme , Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Dark-Global-6&lt;/strong> &lt;/span> : &lt;a href="https://www.pling.com/p/2137360/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2137359/1-logo1.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2137359/1-logo1.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTE2MTgyODIiLCJvIjoiMSIsInMiOiIzNDk5OTU0MjFiOWMyOTExZTk5ODVlN2Y0NGMyM2IxMzUzYTQzZGFkNTE2ZTJjYjNhMzdkNjgyMzgxMWIxOWI1NDliMjc5ZjcxNzM2ODVkNTBhYTQ4YTI1MDRmNzAwY2E4YjI1ODI2YTMzNjNiNWIxZTIxMDIxMTZmNjFmZjBjZCIsInQiOjE3Mjk0MTUxNDYsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.KH5PQc7jXpzYuA0JD_qOoZ3YwX5_ts-OtFag_V6HRV8/Amy-Dark-Aurorae-6.tar.gz</payload>
+  <tags>linux,kde,gplv3,original-product,theme,unix,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="717">
+  <name>Amy-Blur-Light-Aurorae-6</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2138701</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>5474</downloads>
+  <installedfile>/home/y/.local/share/aurorae/themes/Amy-Blur-Light-Aurorae-6/*</installedfile>
+  <id>2138701</id>
+  <releasedate>2024-03-28</releasedate>
+  <summary>Blur Light Window Decoration (Aurorae Theme) for Plasma 6&lt;br />
+&lt;br />
+Solid Light Window Decoration &lt;span style="color: #008b8b;"> &lt;strong>Amy-Light-Aurorae-6&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2138702/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+______________________________________________________________________&lt;br />
+&lt;br />
+Light Plasma Theme, Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Light-Plasma&lt;/strong> &lt;/span>:  &lt;a href="https://www.pling.com/p/2018303" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+&lt;br />
+Light Global Theme, Transparent and Blur,  &lt;span style="color: #008b8b;"> &lt;strong>Amy-Light-Global-6&lt;/strong> &lt;/span>:  &lt;a href="https://www.pling.com/p/2018303" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2138701/screenshot-20240318-115440.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2138701/screenshot-20240318-115440.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTE2MTg5MTEiLCJvIjoiMSIsInMiOiJkMDVhZDI2ODRlMWVjYzhlMTAzZjk1YTgyM2U3ZjJiZDdiOTcxMWRlNDYxMWJlMWY1NjU2Y2UxNGVmMWRhYTA0YzVkNTM1ODVmZDJjMmI4ZmQyZmM2ZmM0M2JhMWI3N2ViODEyM2Y3MjcwZWU3YTkyNWI1NTA3NjY5ZmU3OWQ4NCIsInQiOjE3Mjk0MTUxODMsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.CkIfFjxypsNPNUj-i_QFrh0W1U16XoqVyi52ycPV2f4/Amy-Blur-Light-Aurorae-6.tar.gz</payload>
+  <tags>gplv3,linux,kde,original-product,unix,plasma,theme</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

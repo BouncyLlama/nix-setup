@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="715">
+  <name>Wallpaper Engine Kde Plugin [qt6]</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>verismei</author>
+  <homepage>https://store.kde.org/p/2194089</homepage>
+  <licence></licence>
+  <version>0.5.4</version>
+  <rating>50</rating>
+  <downloads>4309</downloads>
+  <installedfile>/tmp/abysSK-com.github.catsout.wallpaperEngineKde.tar.gz</installedfile>
+  <id>2194089</id>
+  <releasedate>2024-09-08</releasedate>
+  <summary>for Plasma 6 (Supporting wallpaper-engines scene, video, web types)&lt;br />
+&amp;gt;&amp;gt;&amp;gt; some scene / web also need this extra library to work: compile or easily just install &lt;br />
+&amp;gt;&amp;gt; lib for debian / ubuntu / steam deck:  https://github.com/slynobody/SteamOS-wallpaper-engine-kde-plugin&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/78/78/79/2194089/proxy-image1-1.jpeg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/78/78/79/2194089/proxy-image1-1.jpeg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MjQ0ODY4MzkiLCJvIjoiMSIsInMiOiI2MzY4NWI2N2JhOTJmZDdhNTU3Y2NkNzc0NDM5ODg1OTVlMTYzOGQ3NTZlMTUyOTBlYjYzODBlMzhlOGU2Y2I3MWU1MjgyOWVkNWY2ZTE0NjQ2YmVkNjAzMDZlMTUzMTI4YjE4NmJlODVmZDE3OWZmNWRmZmFhZDk5ZTYxM2ZhMyIsInQiOjE3MjkwMTk2NDMsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.gRPC-zQC0vV38pHsyIP6BW7miwjMPJV5m3UZXVb6bDY/com.github.catsout.wallpaperEngineKde.tar.gz</payload>
+  <tags>efi,extension,kde,kde-6,gplv2,linux,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

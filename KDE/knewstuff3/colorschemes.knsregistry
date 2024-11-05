@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="112">
+  <name>Amy-Dark-Color</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2011589</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>43064</downloads>
+  <installedfile>/home/y/.local/share/color-schemes/AmyDarkColor.colors</installedfile>
+  <id>2011589</id>
+  <releasedate>2023-04-01</releasedate>
+  <summary>Dark Colorsheme, customized for the Dark Rounded Plasma Theme &lt;span style="color: #5e81ac;"> &lt;strong>Amy-Plasma&lt;/strong> &lt;/span>, which you can download: &lt;a href="https://www.pling.com/p/2011600/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+&lt;br />
+Light Colorsheme For Light Plasma Themes &lt;span style="color: #5e81ac;"> &lt;strong>Amy-Light-Color&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2011588/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2011589/3-logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2011589/3-logo.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2ODAzNDE5NzUiLCJvIjoiMSIsInMiOiJkM2MzNGIxODY0ZjE5ODgwZDVkNDlkNmRhMmFmMTIxNThmNjVhMTFmMjE1YzczMDljYjgwM2M4NzdlOTYxOTdmYjU2M2FjY2FlY2QyODA4NWFkMDRjNzYyODQ0YTE5NDRjNjZiNzM3NjJjZGY1MWJmMjA2OWIzNWFjOTg0MDRhNyIsInQiOjE3Mjk0MTUxNDgsInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.mMWLOqqZMpRFAjyfU6wCK69fiJaZXq3rRWWIfToAFl8/AmyDarkColor.colors</payload>
+  <tags>colorscheme,original-product,kde,gplv3,linux,plasma,theme,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="112">
+  <name>Amy-Light-Color</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2011588</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>39909</downloads>
+  <installedfile>/home/y/.local/share/color-schemes/AmyLightColor.colors</installedfile>
+  <id>2011588</id>
+  <releasedate>2023-04-15</releasedate>
+  <summary> Light Colorsheme For Light Plasma Themes&lt;br />
+&lt;br />
+ Light Round Plasma Theme &lt;span style="color: #5e81ac;"> &lt;strong>Amy-Light-Plasma&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2018303/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+ ----------------------------------------------------&lt;br />
+&lt;br />
+Dark Colorsheme  For Dark  Plasma Themes &lt;span style="color: #5e81ac;"> &lt;strong>Amy-Dark-Color&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2011589/" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a>&lt;br />
+&lt;br />
+Dark Round Plasma Theme &lt;span style="color: #5e81ac;"> &lt;strong>Amy-Plasma&lt;/strong> &lt;/span>: &lt;a href="https://www.pling.com/p/2011600" target="_blank" rel="nofollow">&lt;span style="color: red;"> Here &lt;/span>&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/49/90/47/2011588/3-logo.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/49/90/47/2011588/3-logo.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2ODE1NDg5NTUiLCJvIjoiMSIsInMiOiJiZjg2ODg1NTZiMGZmNmQ0MGI4ZTYzNjIxZGJhNjBjZjM1YzcxZDFhNDI5ZGRjOTRkNjI3OGIzYjVkN2QxMWUwYjU5MzMwMWQ1ODhjMDYwNzZkZGIzMWQ1NzY0ZmEwZmU1OWMzMDEwZTViNjJlMzBiNGNkN2QzOTljMWFkZGNhOSIsInQiOjE3Mjk0MTUxNDksInN0ZnAiOm51bGwsInN0aXAiOiI5NC4yNTAuMTY5LjExNSJ9.wfjDCD61BE7yCpwaJ2xhMTimbbTv-6eHaUPnj9SZdjk/AmyLightColor.colors</payload>
+  <tags>linux,gplv3,kde,unix,theme,plasma,original-product,colorscheme</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

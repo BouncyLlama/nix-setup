@@ -1,0 +1,14 @@
+{
+    "$fdo_created": "1729008117",
+    "$fdo_modified": "1729008445",
+    "GitHub - https://api.github.com/fryalien": {
+        "$fdo_created": "1729008445",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1729008445",
+        "attributes": {
+            "account": "fryalien",
+            "service": "GitHub - https://api.github.com",
+            "xdg:schema": "org.freedesktop.Secret.Generic"
+        }
+    }
+}

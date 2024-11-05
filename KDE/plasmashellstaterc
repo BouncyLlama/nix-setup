@@ -1,0 +1,12 @@
+[General]
+SystemInstallDate=2024-10-16
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/BIGDATA/GitHub/wallpapers/desk/switzerland.jpg,file:$HOME/Pictures/white-mountain.jpg
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/BIGDATA/GitHub/wallpapers/desk/
+
+[KickerRunnerManager]
+LaunchCounts=3 exec:///run/current-system/sw/bin/frog,1 exec:///nix/store/xi6vz0i2nmzrschylksgay43g593z50n-gparted-1.6.0/bin/gparted,1 exec:///run/current-system/sw/bin/nextcloud,1 exec:///nix/store/x4s4znc1m1x33698rpia07c8wc70my6k-spectacle-24.08.2/bin/spectacle,2 exec:///run/current-system/sw/bin/megasync,1 exec:///nix/store/s5280s79g79m4s0xyqwaw14lh35xwcxb-localsend-1.15.4-unstable-2024-09-25/bin/localsend_app,1 exec:///nix/store/1ykhnj90i2z0clls8brysas79qy40qhz-localsend-1.15.4-unstable-2024-09-25/bin/localsend_app,5 exec:///run/current-system/sw/bin/warpinator,2 exec:///run/current-system/sw/bin/codium,8 exec:///etc/profiles/per-user/y/bin/alacritty,1 exec:///run/current-system/sw/bin/tenacity,5 exec:///etc/profiles/per-user/y/bin/meld,1 krunner_systemsettings_kcm_componentchooser,3 exec:///etc/profiles/per-user/y/bin/localsend_app,1 exec:///run/current-system/sw/bin/krename,3 exec:///run/current-system/sw/bin/FreeFileSync,1 exec:///nix/store/miricj2hc9x6dacg84d9m0skb2hk9lj8-krdp-6.2.0/bin/krdpserver,2 exec:///run/current-system/sw/bin/kbackup,7 exec:///run/current-system/sw/bin/kitty,4 exec:///etc/profiles/per-user/y/bin/obsidian,1 exec:///run/current-system/sw/bin/syncthingtray,4 exec:///run/current-system/sw/bin/VirtualBox,1 krunner_systemsettings_kcm_krdpserver,6 exec:///nix/store/x05ada2zqpjvk8z6h9sk553jixf7zsln-spectacle-24.08.2/bin/spectacle,4 exec:///run/current-system/sw/bin/keepassxc,2 exec:///run/current-system/sw/bin/obs,1 exec:///run/current-system/sw/bin/qbittorrent,3 exec:///nix/store/gm1gswfvsa7kqklr3km6nwmnmc3hpiyg-brave-1.70.123/bin/brave,5 exec:///run/current-system/sw/bin/systemsettings,1 exec:///run/current-system/sw/bin/kwrite,1 exec:///run/current-system/sw/bin/virt-manager,1 krunner_systemsettings_kcm_pulseaudio,2 exec:///nix/store/g0nml9ky1ydv46a42l0n7fj2j7ricyz7-signal-desktop-7.27.0/bin/signal-desktop --no-sandbox,12 exec:///run/current-system/sw/bin/rustdesk,13 exec:///run/current-system/sw/bin/github-desktop
+
+[KickerRunnerManager][History]
+982a300a-0028-4125-bd15-7c25e157a924=k,me,kit,ala,kitt,al,mel,obs,virt,github,meld,gi,rust,gith,sys,spec,kwr,virtu,git,ten,obsi,GITH,ME,free,bra,mega,spe,kee,loca,kb,kbac,local,ru,LOCA,fre,vs,vsc,GIT,fro,fr,qbi,br,soun,defa,kba,githu,barr,sync,loc,virtua
