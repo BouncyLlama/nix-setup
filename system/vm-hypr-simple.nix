@@ -83,6 +83,8 @@
     wlr-randr
     # Font manager
     font-manager
+    # XDG portal
+    xdg-desktop-portal-hyprland
   ];
 
   # Enable VirtualBox guest.
