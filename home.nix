@@ -25,6 +25,7 @@
     ".config/alacritty".source = ./apps/alacritty;
     ".config/kitty".source = ./apps/kitty;
     ".config/hypr".source = ./hyprland/hypr;
+    ".config/waybar".source = ./hyprland/waybar;
     #".config/VSCodium".source = ./apps/VSCodium; # doesn't start after symlink
     #".config/GitHub Desktop".source = ./apps + "/GitHub Desktop"; # doesn't start after symlink
     # KDE STUFF
