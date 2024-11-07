@@ -6,7 +6,8 @@
       ./hardware.nix
       #./system/pc-kde.nix
       #./system/pc-hypr.nix
-      ./system/vm-kde.nix
+      #./system/vm-kde.nix
+      ./system/vm-hypr.nix
     ];
 
   # Bootloader.
