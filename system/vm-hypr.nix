@@ -85,7 +85,7 @@
     # utils
     hyprlock
     hypridle
-    hyprpolkitagent
+    #hyprpolkitagent
   ];
 
   # Enable VirtualBox guest.
