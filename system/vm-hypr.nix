@@ -85,7 +85,7 @@
     # utils
     hyprlock
     hypridle
-    hyprpolkitagent # https://wiki.hyprland.org/Hypr-Ecosystem/hyprpolkitagent/
+    hyprpolkitagent
   ];
 
   # Enable VirtualBox guest.
