@@ -108,7 +108,7 @@
   networking.firewall.allowedUDPPorts = [ 53317 8384 ];
 
   # Installation ISO.
-  system.stateVersion = "24.05"
+  system.stateVersion = "24.05";
 
   # Automatic Garbage Collection.
   nix.gc = {
