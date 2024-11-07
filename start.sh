@@ -6,7 +6,7 @@ rm -rf .git .gitatributes
 
 nixos-generate-config --show-hardware-config > ~/nix/hardware.nix
 
-#sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 
 sudo nixos-rebuild switch --flake ~/nix#niki
 

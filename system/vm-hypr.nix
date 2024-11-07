@@ -17,9 +17,6 @@
     xwayland.enable = true;
   };
 
-  # Optional, hint electron apps to use wayland:
-  environment.sessionVariables.NIXOS_OZONE_WL = "1";
-
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
 
@@ -41,9 +38,8 @@
 
     # HYPRLAND SPECIFIC
     # status bar
-    waybar
+    hyprpanel
     # notifications
-    dunst
     libnotify
     # wallpaper
     hyprpaper
@@ -52,8 +48,7 @@
     # app launcher
     rofi-wayland
     # screenshots
-    grim
-    slurp
+    hyprshot
     # clipboard
     wl-clipboard
     # file manager
@@ -85,15 +80,19 @@
     qt6.qtwayland
     # Monitor stuff
     wlr-randr
-    # Font manager
-    font-manager
+    # xdg portal
+    xdg-desktop-portal-hyprland
+    # utils
+    hyprlock
+    hypridle
+    hyprpolkitagent # https://wiki.hyprland.org/Hypr-Ecosystem/hyprpolkitagent/
   ];
 
   # Enable VirtualBox guest.
-  virtualisation.virtualbox.guest.enable = true;
-  virtualisation.virtualbox.guest.dragAndDrop = true;
-  virtualisation.virtualbox.guest.seamless = true;
-  virtualisation.virtualbox.guest.clipboard = true;
+  #virtualisation.virtualbox.guest.enable = true;
+  #virtualisation.virtualbox.guest.dragAndDrop = true;
+  #virtualisation.virtualbox.guest.seamless = true;
+  #virtualisation.virtualbox.guest.clipboard = true;
 
   # Enable virt-manager guest.
   services.qemuGuest.enable = true;
