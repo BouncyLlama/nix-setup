@@ -67,7 +67,7 @@
   users.users.y = {
     isNormalUser = true;
     description = "y";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     shell = pkgs.fish;
     packages = with pkgs; [
       micro
