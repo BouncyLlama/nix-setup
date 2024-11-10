@@ -26,8 +26,10 @@ abbr lsch 'sudo nix-channel --list'
 abbr clean 'sudo nix-collect-garbage --delete-older-than 3d'
 # look when something is being delete
 abbr lst 'systemctl list-timers'
-# list generations
+# list nixos generations
 abbr lsgen 'sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
+# list home-manager generations
+abbr lsgenhm 'home-manager generations'
 
 ### WITHOUT FLAKES
 #abbr up 'sudo nix-channel --update'
@@ -40,9 +42,11 @@ abbr lsgen 'sudo nix-env --list-generations --profile /nix/var/nix/profiles/syst
 #abbr rs 'sudo nixos-rebuild switch --flake ~/nix'
 
 ### WITH FALKES AND HOME MANAGER
+# update flake
 abbr up 'cd ~/nix; nix flake update'
-# UPDATE SYSTEM
+# update system
 abbr rs  'sudo nixos-rebuild switch --flake ~/nix'
+# update home-manager
 abbr rsh 'home-manager switch --flake ~/nix'
 abbr rhm 'nix run home-manager/master -- switch -b backup --flake ~/nix'
 

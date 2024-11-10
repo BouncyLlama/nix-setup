@@ -17,6 +17,9 @@
     xwayland.enable = true;
   };
 
+  # Optional, hint electron apps to use wayland:
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
+
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
 
@@ -36,10 +39,10 @@
     la-capitaine-icon-theme
     gnome-icon-theme
 
-    # HYPRLAND SPECIFIC
     # status bar
-    hyprpanel
+    waybar
     # notifications
+    dunst
     libnotify
     # wallpaper
     hyprpaper
@@ -48,7 +51,8 @@
     # app launcher
     rofi-wayland
     # screenshots
-    hyprshot
+    grim
+    slurp
     # clipboard
     wl-clipboard
     # file manager
@@ -58,6 +62,7 @@
     xfce.thunar-media-tags-plugin
     # fonts
     font-awesome
+    nerdfonts
     hack-font
     fira-code
     fira-code-nerdfont
@@ -72,30 +77,17 @@
     nwg-look
     # Setup QT themes
     libsForQt5.qt5ct
+	libsForQt5.qtstyleplugin-kvantum
     kdePackages.qt6ct
     themechanger
-    kdePackages.qtstyleplugin-kvantum
+    #kdePackages.qtstyleplugin-kvantum
     # QT stuff
     qt5.qtwayland
     qt6.qtwayland
     # Monitor stuff
     wlr-randr
-    # xdg portal
-    xdg-desktop-portal-hyprland
-    # utils
-    hyprlock
-    hypridle
-    #hyprpolkitagent
+    # Font manager
+    font-manager
   ];
-
-  # Enable VirtualBox guest.
-  #virtualisation.virtualbox.guest.enable = true;
-  #virtualisation.virtualbox.guest.dragAndDrop = true;
-  #virtualisation.virtualbox.guest.seamless = true;
-  #virtualisation.virtualbox.guest.clipboard = true;
-
-  # Enable virt-manager guest.
-  services.qemuGuest.enable = true;
-  services.spice-vdagentd.enable = true;
 
 }

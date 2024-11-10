@@ -4,10 +4,11 @@
   imports =
     [
       ./hardware.nix
-      #./system/pc-kde.nix
-      #./system/pc-hypr.nix
-      #./system/vm-kde.nix
-      ./system/vm-hypr.nix
+      ./system/hyprland.nix
+      #./system/hyprland-git.nix
+      #./system/kde.nix
+      #./system/gnome.nix
+      #./system/xfce.nix
     ];
 
   # Bootloader.
@@ -97,6 +98,31 @@
     ];
   };
 
+  # List packages installed in system profile.
+  environment.systemPackages = with pkgs; [
+    kitty
+    brave
+    librewolf
+    nextcloud-client
+    megasync
+    keepassxc
+    obs-studio
+    github-desktop
+    mpv
+    qbittorrent
+    spotify
+    onlyoffice-desktopeditors
+    yt-dlp
+    imagemagick
+    signal-desktop
+    syncthing
+    syncthingtray
+    rustdesk-flutter
+    freefilesync
+    freetube
+    tenacity
+  ];
+
   # Allow unfree packages.
   nixpkgs.config.allowUnfree = true;
 
@@ -119,6 +145,17 @@
 
   # Enable fish.
   programs.fish.enable = true;
+
+  # Enable VirtualBox.
+  virtualisation.virtualbox.host.enable = true;
+  users.extraGroups.vboxusers.members = [ "y" ];
+
+  # Extensions for VirtualBox
+  virtualisation.virtualbox.host.enableExtensionPack = true;
+
+  # Enable Virt-manager
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
   # Enable flakes.
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

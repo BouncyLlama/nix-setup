@@ -35,7 +35,6 @@
     la-capitaine-icon-theme
     gnome-icon-theme
 
-    # HYPRLAND SPECIFIC
     # status bar
     waybar
     # notifications
@@ -86,15 +85,5 @@
     # XDG portal
     xdg-desktop-portal-hyprland
   ];
-
-  # Enable VirtualBox guest.
-  virtualisation.virtualbox.guest.enable = true;
-  virtualisation.virtualbox.guest.dragAndDrop = true;
-  virtualisation.virtualbox.guest.seamless = true;
-  virtualisation.virtualbox.guest.clipboard = true;
-
-  # Enable virt-manager guest.
-  services.qemuGuest.enable = true;
-  services.spice-vdagentd.enable = true;
 
 }
