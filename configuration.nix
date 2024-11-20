@@ -2,14 +2,7 @@
 
 {
   imports =
-    [
-      ./hardware.nix
-      ./system/hyprland.nix
-      #./system/hyprland-git.nix
-      #./system/kde.nix
-      #./system/gnome.nix
-      #./system/xfce.nix
-    ];
+    [ ./hardware.nix ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -17,6 +10,9 @@
 
   # Enable the SDDM display manager.
   services.displayManager.sddm.enable = true;
+
+  # Enable the KDE Plasma Desktop Environment.
+  services.desktopManager.plasma6.enable = true;
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -121,6 +117,22 @@
     freefilesync
     freetube
     tenacity
+
+    # GTK THEMES
+    magnetic-catppuccin-gtk
+
+    # KDE STUFF
+    krename
+    kdePackages.dolphin-plugins
+    kdePackages.ark
+    kdePackages.kbackup
+    kdePackages.kio-admin
+    kdePackages.kate
+    kdePackages.kcalc
+    kdePackages.kcolorchooser
+    kdePackages.kolourpaint
+    kdePackages.tokodon
+    catppuccin-kde
   ];
 
   # Allow unfree packages.
