@@ -2,12 +2,12 @@
 
 {
 
-  imports =
+#  imports =
     [
-      ./dots/browser/librewolf.nix
+#      ./dots/browser/librewolf.nix
       #./dots/browser/chromium.nix
       #./dots/browser/brave.nix
-    ];
+#    ];
 
   # Home Manager data.
   home.username = "y";
