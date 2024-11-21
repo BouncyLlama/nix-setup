@@ -116,6 +116,7 @@
     rustdesk-flutter
     freefilesync
     freetube
+    vivaldi
     tenacity
 
     # GTK THEMES
