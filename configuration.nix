@@ -71,7 +71,6 @@
       neovim
       xterm
       vscodium
-      zed-editor
       chromium
       git
       vlc
