@@ -158,6 +158,15 @@
   # Enable fish.
   programs.fish.enable = true;
 
+  services.syncthing = {
+  enable = true;
+  openDefaultPorts = true;
+    group = "users";
+    user = "y";
+    dataDir = "/home/y/BIGDATA/SYNCTHING";    # Default folder for new synced folders
+    configDir = "/home/y/BIGDATA/SYNCTHING/.config/syncthing";   # Folder for Syncthing's settings and keys
+  };
+
   # Enable VirtualBox.
   virtualisation.virtualbox.host.enable = true;
   users.extraGroups.vboxusers.members = [ "y" ];
