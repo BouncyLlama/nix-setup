@@ -71,6 +71,7 @@
       neovim
       xterm
       vscodium
+      zed-editor
       chromium
       git
       vlc
@@ -116,6 +117,7 @@
     rustdesk-flutter
     freefilesync
     freetube
+    vivaldi
     tenacity
 
     # GTK THEMES
