@@ -28,6 +28,7 @@
 
   # Enable networking.
   networking.networkmanager.enable = true;
+  #networking.wireless.enable = true; # Wi-fi via wpa_supplicant.
 
   # Set your time zone.
   time.timeZone = "America/Los_Angeles";
