@@ -66,7 +66,6 @@
     isNormalUser = true;
     description = "y";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
-    shell = pkgs.fish;
     packages = with pkgs; [
       micro
       neovim
@@ -137,6 +136,13 @@
     catppuccin-kde
   ];
 
+  # Fonts.
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "FiraCode" "DroidSansMono" "Hack" "Ubuntu"]; })
+    ubuntu_font_family
+    font-awesome
+  ];
+
   # Allow unfree packages.
   nixpkgs.config.allowUnfree = true;
 
@@ -159,7 +165,9 @@
 
   # Enable fish.
   programs.fish.enable = true;
+  users.defaultUserShell = pkgs.fish;
 
+  # Syncthing.
   services.syncthing = {
   enable = true;
   openDefaultPorts = true;
