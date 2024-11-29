@@ -2,12 +2,12 @@
 
 {
 
-#  imports =
-    [
-#      ./dots/browser/librewolf.nix
-      #./dots/browser/chromium.nix
-      #./dots/browser/brave.nix
-#    ];
+# imports =
+#   [
+#     ./dots/browser/librewolf.nix
+#     #./dots/browser/chromium.nix
+#     #./dots/browser/brave.nix
+#   ];
 
   # Home Manager data.
   home.username = "y";
@@ -22,6 +22,9 @@
     ".local/share/konsole".source = ./dots/konsole;
     ".config/alacritty".source = ./dots/alacritty;
     ".config/kitty".source = ./dots/kitty;
+    ".config/foot".source = ./dots/foot;
+    #".config/waybar".source = ./dots/waybar;
+    #".config/rofi".source = ./dots/rofi;
   };
 
   # Home Manager can also manage your environment variables.

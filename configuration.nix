@@ -1,10 +1,11 @@
 { inputs, config, pkgs, ... }:
 
 {
-  imports = [
-    ./hardware.nix
-    .kde.nix
-    #.hypr.nix
+  imports =
+    [
+      ./hardware.nix
+      ./system/kde.nix
+      #./system/hypr.nix
     ];
 
   # Bootloader.
@@ -13,9 +14,6 @@
 
   # Enable the SDDM display manager.
   services.displayManager.sddm.enable = true;
-
-  # Enable the KDE Plasma Desktop Environment.
-  services.desktopManager.plasma6.enable = true;
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -68,19 +66,18 @@
   users.users.y = {
     isNormalUser = true;
     description = "y";
-    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
+    extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       micro
       neovim
       xterm
       vscodium
+      geany
       chromium
       git
       vlc
       p7zip
       archiver
-      wireshark
-      obsidian
       fzf
       bat
       eza
@@ -121,22 +118,9 @@
     freetube
     vivaldi
     tenacity
-
-    # GTK THEMES
-    magnetic-catppuccin-gtk
-
-    # KDE STUFF
-    krename
-    kdePackages.dolphin-plugins
-    kdePackages.ark
-    kdePackages.kbackup
-    kdePackages.kio-admin
-    kdePackages.kate
-    kdePackages.kcalc
-    kdePackages.kcolorchooser
-    kdePackages.kolourpaint
-    kdePackages.tokodon
-    catppuccin-kde
+      wireshark
+      obsidian
+    tokyonight-gtk-theme
   ];
 
   # Fonts.
@@ -152,9 +136,9 @@
   # Enable the firewall.
   networking.firewall.enable = true;
 
-  # Open ports in the firewall (localsend, syncthing).
-  networking.firewall.allowedTCPPorts = [ 53317 8384 ];
-  networking.firewall.allowedUDPPorts = [ 53317 8384 ];
+  # Open ports in the firewall (localsend).
+  networking.firewall.allowedTCPPorts = [ 53317 ];
+  networking.firewall.allowedUDPPorts = [ 53317 ];
 
   # Installation ISO.
   system.stateVersion = "24.05";
@@ -190,6 +174,7 @@
   # Enable Virt-manager
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
+  users.extraGroups.libvirtd.members = [ "y" ];
 
   # Enable flakes.
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
