@@ -118,8 +118,8 @@
     freetube
     vivaldi
     tenacity
-      wireshark
-      obsidian
+    wireshark
+    obsidian
     tokyonight-gtk-theme
   ];
 
