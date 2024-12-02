@@ -121,6 +121,7 @@
     wireshark
     obsidian
     tokyonight-gtk-theme
+    parabolic
   ];
 
   # Fonts.
