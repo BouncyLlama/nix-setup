@@ -40,6 +40,7 @@
     kdePackages.konsole
     kdePackages.kio-admin
     kdePackages.breeze-icons
+    kdePackages.kwrite
 
     # ICONS
     dracula-icon-theme
