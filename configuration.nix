@@ -25,14 +25,14 @@
   };
 
   # Hostname.
-  networking.hostName = "niki";
+  networking.hostName = "harbinger";
 
   # Enable networking.
   networking.networkmanager.enable = true;
   #networking.wireless.enable = true; # Wi-fi via wpa_supplicant.
 
   # Set your time zone.
-  time.timeZone = "America/Los_Angeles";
+  time.timeZone = "America/New_York";
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -63,9 +63,9 @@
   };
 
   # Define a user account.
-  users.users.y = {
+  users.users.ethan = {
     isNormalUser = true;
-    description = "y";
+    description = "ethan";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       micro
@@ -97,29 +97,13 @@
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     kitty
-    brave
     librewolf
-    nextcloud-client
-    megasync
-    keepassxc
-    obs-studio
-    github-desktop
     mpv
     qbittorrent
-    spotify
-    onlyoffice-desktopeditors
-    yt-dlp
     imagemagick
-    signal-desktop
-    syncthing
-    syncthingtray
-    rustdesk-flutter
-    freefilesync
-    freetube
     vivaldi
     tenacity
     wireshark
-    obsidian
     tokyonight-gtk-theme
     parabolic
   ];
@@ -138,11 +122,11 @@
   networking.firewall.enable = true;
 
   # Open ports in the firewall (localsend).
-  networking.firewall.allowedTCPPorts = [ 53317 ];
-  networking.firewall.allowedUDPPorts = [ 53317 ];
-
+  networking.firewall.allowedTCPPorts = [ 53317,22 ];
+  networking.firewall.allowedUDPPorts = [ 53317,22 ];
+  services.openssh.enable=true;
   # Installation ISO.
-  system.stateVersion = "24.05";
+  system.stateVersion = "24.11";
 
   # Automatic Garbage Collection.
   nix.gc = {
@@ -151,23 +135,6 @@
       options = "--delete-older-than 7d";
       };
 
-  # Enable fish.
-  programs.fish.enable = true;
-  users.defaultUserShell = pkgs.fish;
-
-  # Syncthing.
-  services.syncthing = {
-  enable = true;
-  openDefaultPorts = true;
-    group = "users";
-    user = "y";
-    dataDir = "/home/y/BIGDATA/SYNCTHING";    # Default folder for new synced folders
-    configDir = "/home/y/BIGDATA/SYNCTHING/.config/syncthing";   # Folder for Syncthing's settings and keys
-  };
-
-  # Enable VirtualBox.
-  virtualisation.virtualbox.host.enable = true;
-  users.extraGroups.vboxusers.members = [ "y" ];
 
   # Extensions for VirtualBox
   virtualisation.virtualbox.host.enableExtensionPack = true;

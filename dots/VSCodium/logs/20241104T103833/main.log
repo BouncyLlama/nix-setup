@@ -1,4 +1,0 @@
-2024-11-04 10:38:33.717 [info] update#setState disabled
-2024-11-04 10:38:33.717 [info] update#ctor - updates are disabled as there is no update URL
-2024-11-04 10:38:35.084 [error] vscode-file: Refused to load resource /nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/nix/store/xh9xf2nkl1lm0wlvkp8lpkbhqqr5gpsw-vscodium-1.94.2.24284/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff)
-2024-11-04 10:39:11.264 [info] Extension host with pid 213656 exited with code: 0, signal: unknown.
