@@ -12,7 +12,7 @@
   outputs = { self, nixpkgs, home-manager, hyprland, ... } @ inputs:
   {
       nixosConfigurations = {
-        niki = nixpkgs.lib.nixosSystem {
+        harbinger = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           specialArgs = { inherit inputs; };
           modules = [
@@ -23,7 +23,7 @@
       };
 
       homeConfigurations = {
-        y = home-manager.lib.homeManagerConfiguration {
+        ethan = home-manager.lib.homeManagerConfiguration {
           pkgs = nixpkgs.legacyPackages."x86_64-linux";
           modules = [ ./home.nix ];
         };
