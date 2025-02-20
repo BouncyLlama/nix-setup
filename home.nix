@@ -21,14 +21,14 @@
     ".local/share/konsole".source = ./dots/konsole;
     ".config/alacritty".source = ./dots/alacritty;
     ".config/kitty".source = ./dots/kitty;
-    ".config/foot".source = ./dots/foot;
+    #".config/foot".source = ./dots/foot;
     #".config/waybar".source = ./dots/waybar;
     #".config/rofi".source = ./dots/rofi;
   };
 
   # Home Manager can also manage your environment variables.
   home.sessionVariables = {
-    EDITOR = "micro";
+    EDITOR = "nano";
   };
 
   # Let Home Manager install and manage itself.

@@ -4,7 +4,7 @@
   imports =
     [
       ./hardware.nix
-      ./system/kde.nix
+     # ./system/kde.nix
       #./system/hypr.nix
     ];
 
@@ -13,10 +13,17 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Enable the SDDM display manager.
-  services.displayManager.sddm.enable = true;
+  services.displayManager.defaultSession="xfce"
 
   # Enable the X11 windowing system.
-  services.xserver.enable = true;
+  services.xserver = {
+    enable=true;
+    desktopManager={
+      xterm.enable=false;
+      xfce.enable=true;
+    };
+  };
+  
 
   # Configure keymap in X11.
   services.xserver.xkb = {
@@ -68,28 +75,18 @@
     description = "ethan";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      micro
       neovim
       xterm
       vscodium
-      geany
-      chromium
       git
-      vlc
       p7zip
-      archiver
       fzf
       bat
       eza
       btop
-      fastfetch
-      meld
-      ripgrep
       tmux
-      tldr
       ffmpeg
       gparted
-      localsend
       catppuccin-cursors.mochaMauve
     ];
   };
