@@ -1,6 +1,9 @@
 { inputs, config, pkgs, ... }:
 
 {
+services.xserver.enable = true;
+# services.xserver.displayManager.sddm.enable = true;
+# services.xserver.displayManager.sddm.wayland.enable = true;
   # Enable Cachix (https://wiki.hyprland.org/Nix/Cachix/)
   nix.settings = {
     substituters = ["https://hyprland.cachix.org"];
@@ -25,7 +28,7 @@
 
   # Optional, hint electron apps to use wayland:
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
-
+environment.sessionVariables.WLR_NO_HARDWARE_CURSORS = "1";
   # INSTALL PACKAGES
   environment.systemPackages = with pkgs; [
 
@@ -33,14 +36,6 @@
     kitty
     foot
 
-    # KDE DOLPHIN
-    kdePackages.dolphin
-    kdePackages.dolphin-plugins
-    kdePackages.ark
-    kdePackages.konsole
-    kdePackages.kio-admin
-    kdePackages.breeze-icons
-    kdePackages.kwrite
 
     # ICONS
     dracula-icon-theme

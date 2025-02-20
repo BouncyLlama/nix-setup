@@ -4,7 +4,7 @@
   imports =
     [
       ./hardware.nix
-      ./system/i3xfce.nix
+      ./system/hypr.nix
      # ./system/kde.nix
       #./system/hypr.nix
     ];
@@ -78,6 +78,7 @@
     description = "ethan";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      kitty
       neovim
       xterm
       vscodium
