@@ -4,6 +4,7 @@
   imports =
     [
       ./hardware.nix
+      ./system/i3xfce.nix
      # ./system/kde.nix
       #./system/hypr.nix
     ];
@@ -13,18 +14,20 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Enable the SDDM display manager.
-  services.displayManager.defaultSession="xfce"
+  # services.displayManager.defaultSession="xfce";
 
   # Enable the X11 windowing system.
-  services.xserver = {
-    enable=true;
-    desktopManager={
-      xterm.enable=false;
-      xfce.enable=true;
-    };
-  };
+  # services.xserver = {
+  #   enable=true;
+
+  #   desktopManager={
+  #     xterm.enable=false;
+  #     xfce.enable=true;
+  #   };
+  # };
   
 
+  
   # Configure keymap in X11.
   services.xserver.xkb = {
     layout = "us";
@@ -119,8 +122,8 @@
   networking.firewall.enable = true;
 
   # Open ports in the firewall (localsend).
-  networking.firewall.allowedTCPPorts = [ 53317,22 ];
-  networking.firewall.allowedUDPPorts = [ 53317,22 ];
+  networking.firewall.allowedTCPPorts = [ 53317 22 ];
+  networking.firewall.allowedUDPPorts = [ 53317 22 ];
   services.openssh.enable=true;
   # Installation ISO.
   system.stateVersion = "24.11";

@@ -21,6 +21,9 @@
     ".local/share/konsole".source = ./dots/konsole;
     ".config/alacritty".source = ./dots/alacritty;
     ".config/kitty".source = ./dots/kitty;
+    ".config/i3"={source = ./dots/i3;
+    onChange =''${pkgs.i3}/bin/i3-msg reload'';
+    };
     #".config/foot".source = ./dots/foot;
     #".config/waybar".source = ./dots/waybar;
     #".config/rofi".source = ./dots/rofi;
