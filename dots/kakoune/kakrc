@@ -1,0 +1,146 @@
+add-highlighter global/ number-lines -hlcursor -separator "  " -cursor-separator " |"
+add-highlighter global/ show-matching
+set-option global tabstop 2
+set-option global indentwidth 2
+set-option global scrolloff 8,3
+# remap b to q
+map global normal q b
+# variations of b
+map global normal Q B
+map global normal <a-q> <a-b>
+map global normal <a-Q> <a-B>
+map global normal <esc> ";,"
+map global normal <c-v> ":comment-line<ret>"
+map -docstring "close current buffer" global user b ": db<ret>"
+map -docstring "goto previous buffer" global user n ": bp<ret>"
+map -docstring "goto next buffer" global user m ": bn<ret>"
+# fancy insert newline
+map -docstring "insert newline above" global user [ "O<esc>j"
+map -docstring "insert newline below" global user ] "o<esc>k"
+set-option global ui_options terminal_assistant=cat
+
+
+
+define-command save-buffer -docstring "save current buffer and show info"  %{
+  write
+  info "file saved at %sh{date}"
+}
+hook global ModeChange pop:insert:.* %{
+	save-buffer
+}
+hook global WinSetOption filetype=markdown %{
+  add-highlighter -override global/markdown-wrap wrap -word
+
+  hook -once -always window WinSetOption filetype=.* %{
+    remove-highlighter global/markdown-wrap
+  }
+}
+hook global InsertCompletionShow .* %{
+  try %{
+    # this command temporarily removes cursors preceded by whitespace;
+    # if there are no cursors left, it raises an error, does not
+    # continue to execute the mapping commands, and the error is eaten
+    # by the `try` command so no warning appears.
+    execute-keys -draft 'h<a-K>\h<ret>'
+    map window insert <tab> <c-n>
+    map window insert <s-tab> <c-p>
+    hook -once -always window InsertCompletionHide .* %{
+      unmap window insert <tab> <c-n>
+      unmap window insert <s-tab> <c-p>
+    }
+  }
+}
+#enable plugins
+source "%val{config}/plugins/plug.kak/rc/plug.kak"
+plug "andreyorst/plug.kak" noload
+plug "secondary-smiles/kakoune-themes" theme config %{
+  colorscheme gruvbox-dark
+}
+# autopairs
+plug "alexherbo2/auto-pairs.kak" config %{
+  enable-auto-pairs
+}
+# fzf
+plug "andreyorst/fzf.kak" config %{
+  require-module fzf
+  require-module fzf-grep
+  require-module fzf-file
+} defer fzf %{
+  set-option global fzf_highlight_command "lat -r {}"
+} defer fzf-file %{
+  set-option global fzf_file_command "fd . --no-ignore-vcs"
+} defer fzf-grep %{
+  set-option global fzf_grep_command "fd"
+} 
+map -docstring "open fzf" global user f ": fzf-mode<ret>"
+#powerline
+plug "andreyorst/powerline.kak" defer kakoune-themes %{
+  powerline-theme pastel
+} defer powerline %{
+  powerline-format global "git lsp bufname filetype mode_info lsp line_column position"
+  set-option global powerline_separator_thin ""
+  set-option global powerline_separator ""
+} config %{
+  powerline-start
+}
+#line selection stuff
+plug "evanrelf/byline.kak" config %{
+  require-module "byline"
+}
+#enable lua stuff
+plug "gustavo-hms/luar" %{
+  require-module luar
+}
+#language server stuff
+plug "kak-lsp/kak-lsp" do %{
+  cargo install --locked --force --path .
+  # optional: if you want to use specific language servers
+  # mkdir -p ~/.config/kak-lsp
+  # cp -n kak-lsp.toml ~/.config/kak-lsp/
+}
+map -docstring "open lsp" global user l ": enter-user-mode lsp<ret>"
+
+hook global WinSetOption filetype=(rust|javascript|typescript|c) %{
+  lsp-enable-window
+  lsp-inlay-diagnostics-enable global
+}
+
+## enable syntax highlighting for each lang
+# c
+hook global WinSetOption filetype=c %{
+  hook window -group semantic-tokens BufReload .* lsp-semantic-tokens
+  hook window -group semantic-tokens NormalIdle .* lsp-semantic-tokens
+  hook window -group semantic-tokens InsertIdle .* lsp-semantic-tokens
+  hook -once -always window WinSetOption filetype=.* %{
+    remove-hooks window semantic-tokens
+  }
+}
+
+# rust
+hook global WinSetOption filetype=rust %{
+  hook window -group semantic-tokens BufReload .* lsp-semantic-tokens
+  hook window -group semantic-tokens NormalIdle .* lsp-semantic-tokens
+  hook window -group semantic-tokens InsertIdle .* lsp-semantic-tokens
+  hook -once -always window WinSetOption filetype=.* %{
+    remove-hooks window semantic-tokens
+  }
+}
+# typescript
+hook global WinSetOption filetype=typescript %{
+  hook window -group semantic-tokens BufReload .* lsp-semantic-tokens
+  hook window -group semantic-tokens NormalIdle .* lsp-semantic-tokens
+  hook window -group semantic-tokens InsertIdle .* lsp-semantic-tokens
+  hook -once -always window WinSetOption filetype=.* %{
+    remove-hooks window semantic-tokens
+  }
+}
+
+# javascript
+hook global WinSetOption filetype=javascript %{
+  hook window -group semantic-tokens BufReload .* lsp-semantic-tokens
+  hook window -group semantic-tokens NormalIdle .* lsp-semantic-tokens
+  hook window -group semantic-tokens InsertIdle .* lsp-semantic-tokens
+  hook -once -always window WinSetOption filetype=.* %{
+    remove-hooks window semantic-tokens
+  }
+}
